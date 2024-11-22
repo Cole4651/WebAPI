@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Styles */
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin: 5px;
+}
+.form-group input.form-control {
+    width: 90%;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    font-size: 1em;
+}
+.form-group input.form-control:focus {
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #26a706;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px auto;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block; 
+    text-align: center; 
+}
+.btn-primary:hover {
+    background-color: #105200;
+}
+
+.btn-warning {
+    background-color: #ff3a3a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px auto;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block; 
+    text-align: center; 
+}
+.btn-warning:hover {
+    background-color: #910000;
+}
+
+/* Centering Container */
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Table Styles */
+.table-container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #26a706;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+/* Form Group Styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input {
+    width: 80%;
+}
