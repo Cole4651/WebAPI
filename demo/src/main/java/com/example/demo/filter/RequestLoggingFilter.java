@@ -11,7 +11,12 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class RequestLoggingFilter implements Filter {
+    
+    private static final Logger logger = LoggerFactory.getLogger(RequestLoggingFilter.class);
     
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -26,6 +31,8 @@ public class RequestLoggingFilter implements Filter {
         if("/users".equals(url)) {
             String currentTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-DD HH:mm:ss"));
             System.out.println("User hit /users endpoint at: " + currentTime);
+            logger.info("User hit /users endpoint at: {}", currentTime);
+
         }
 
         chain.doFilter(request, response);
