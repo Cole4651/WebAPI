@@ -1,0 +1,66 @@
+2024-12-04T00:15:45.345-06:00  INFO 17632 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 17632 (C:\Users\Cole Nola\Documents\WebAPI\demo\target\classes started by Cole Nola in C:\Users\Cole Nola\Documents\WebAPI)
+2024-12-04T00:15:45.347-06:00  INFO 17632 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T00:15:45.391-06:00  INFO 17632 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-04T00:15:45.392-06:00  INFO 17632 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-04T00:15:46.154-06:00  INFO 17632 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T00:15:46.227-06:00  INFO 17632 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-12-04T00:15:46.938-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-04T00:15:46.955-06:00  INFO 17632 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T00:15:46.956-06:00  INFO 17632 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T00:15:47.016-06:00  INFO 17632 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T00:15:47.017-06:00  INFO 17632 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1625 ms
+2024-12-04T00:15:47.284-06:00  INFO 17632 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T00:15:47.377-06:00  INFO 17632 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-04T00:15:47.413-06:00  INFO 17632 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T00:15:47.744-06:00  INFO 17632 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T00:15:47.769-06:00  INFO 17632 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-04T00:15:48.173-06:00  INFO 17632 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71e06ee7
+2024-12-04T00:15:48.175-06:00  INFO 17632 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-04T00:15:48.267-06:00  INFO 17632 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-04T00:15:49.161-06:00  INFO 17632 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T00:15:49.225-06:00  INFO 17632 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:15:49.579-06:00  WARN 17632 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T00:15:49.603-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-04T00:15:50.061-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T00:15:50.108-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-04T00:15:50.116-06:00  INFO 17632 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.308 seconds (process running for 5.789)
+2024-12-04T00:15:59.418-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04T00:15:59.418-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-04T00:15:59.420-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-04T00:15:59.424-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:15:59
+2024-12-04T00:16:00.310-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:00
+2024-12-04T00:16:01.309-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:01
+2024-12-04T00:16:02.312-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:02
+2024-12-04T00:16:03.311-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:03
+2024-12-04T00:16:04.326-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:04
+2024-12-04T00:16:05.321-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:05
+2024-12-04T00:16:06.323-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:06
+2024-12-04T00:16:07.338-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:07
+2024-12-04T00:16:08.337-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:08
+2024-12-04T00:16:09.338-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:09
+2024-12-04T00:16:10.341-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:10
+2024-12-04T00:16:11.339-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:11
+2024-12-04T00:16:12.341-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:12
+2024-12-04T00:16:13.348-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:13
+2024-12-04T00:16:14.357-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:14
+2024-12-04T00:16:15.363-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:15
+2024-12-04T00:16:16.360-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:16
+2024-12-04T00:16:17.369-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:17
+2024-12-04T00:16:18.370-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:18
+2024-12-04T00:16:19.373-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:19
+2024-12-04T00:16:20.377-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:20
+2024-12-04T00:16:21.389-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:21
+2024-12-04T00:16:22.393-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:22
+2024-12-04T00:16:23.394-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:23
+2024-12-04T00:16:24.397-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:24
+2024-12-04T00:16:25.398-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:25
+2024-12-04T00:16:26.404-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:26
+2024-12-04T00:16:27.419-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:27
+2024-12-04T00:16:28.420-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:28
