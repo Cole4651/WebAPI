@@ -29,9 +29,8 @@ public class RequestLoggingFilter implements Filter {
         String url = httpServletRequest.getRequestURI();
 
         if("/users".equals(url)) {
-            String currentTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-DD HH:mm:ss"));
-            System.out.println(currentTime);
-            logger.info(currentTime);
+            String currentTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+            logger.info("Request to /users at {}", currentTime);
 
         }
 
