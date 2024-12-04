@@ -56,12 +56,10 @@ public class IntrusionDetectionSystem {
                     if (timestampString != null) {
                         LocalDateTime timestamp = LocalDateTime.parse(timestampString, DATE_FORMATTER);
                         timestamps.add(timestamp);
-                        System.out.println("Extracted timestamp: " + timestampString); 
                     }
                 }
             }
 
-            System.out.println("Total timestamps found: " + timestamps.size());
             checkRequestRate(timestamps, lines);
         } catch (IOException e) {
             logger.error("Error reading log file", e);
@@ -84,10 +82,9 @@ public class IntrusionDetectionSystem {
             LocalDateTime currentTimestamp = timestamps.get(i);
 
             long secondsDifference = java.time.Duration.between(prevTimestamp, currentTimestamp).getSeconds();
-            System.out.println("Checking request rate: " + prevTimestamp + " -> " + currentTimestamp + " (" + secondsDifference + " seconds)");
 
             if (secondsDifference <= 1) {
-                System.out.println("High request rate detected between " + prevTimestamp + " and " + currentTimestamp + " (" + secondsDifference + " seconds)");
+                System.out.println("Possible DDoS attack between " + prevTimestamp + " and " + currentTimestamp + " (" + secondsDifference + " seconds)");
                 markForDeletion(lines, prevTimestamp, currentTimestamp);
             }
         }
