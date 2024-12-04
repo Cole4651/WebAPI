@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import jakarta.annotation.PostConstruct;
@@ -23,7 +24,6 @@ public class IntrusionDetectionSystem {
     private static final String LOG_FILE_PATH = "logs/application-log.txt";
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSXXX");
 
-    // This method will be called after Spring initializes the bean
     @PostConstruct
     public void startMonitoring() {
         try {
@@ -35,14 +35,13 @@ public class IntrusionDetectionSystem {
                 logger.error("Log file does not exist at path: {}", LOG_FILE_PATH);
                 return;  // Exit if the file doesn't exist
             }
-            monitorRequestRate();
         } catch (Exception e) {
-            // Log any initialization failures
             logger.error("Error during intrusion detection system initialization", e);
         }
     }
 
-    // Method to monitor the request rate by reading the log file
+    // This method is now called every 5 seconds (you can adjust the interval as needed)
+    @Scheduled(fixedRate = 5000) // 5000 ms = 5 seconds
     public void monitorRequestRate() {
         List<LocalDateTime> timestamps = new ArrayList<>();
 
@@ -68,9 +67,11 @@ public class IntrusionDetectionSystem {
 
     // Method to extract timestamp from the log line
     private String extractTimeStamp(String logLine) {
-        int timestampIndex = logLine.lastIndexOf("at ");
+        // Find the first occurrence of "at " to get the timestamp
+        int timestampIndex = logLine.indexOf("at ");
         if (timestampIndex != -1) {
-            return logLine.substring(timestampIndex + 3);
+            // Extract the timestamp from the log line
+            return logLine.substring(timestampIndex + 3).trim(); // Ensure no extra spaces
         }
         return null;
     }
