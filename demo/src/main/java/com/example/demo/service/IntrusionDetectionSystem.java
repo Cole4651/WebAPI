@@ -23,13 +23,12 @@ public class IntrusionDetectionSystem {
 
     @PostConstruct
     public void startMonitoring() {
-        IntrusionDetectionSystem monitor = new IntrusionDetectionSystem();
-        monitor.monitorRequestRate();
+        monitorRequestRate();
     }
 
 
     public void monitorRequestRate() {
-        System.out.println("String to monitor request rates. ");
+        System.out.println("Starting to monitor request rates. ");
         List<LocalDateTime> timestamps = new ArrayList<>();
 
         try(BufferedReader reader = new BufferedReader(new FileReader(LOG_FILE_PATH))) {
