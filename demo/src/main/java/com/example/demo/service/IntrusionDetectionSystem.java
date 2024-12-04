@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 
 public class IntrusionDetectionSystem {
     private static final Logger logger = LoggerFactory.getLogger(IntrusionDetectionSystem.class);
-    private static final String LOG_FILE_PATH = "/logs/application-log.txt";
+    private static final String LOG_FILE_PATH = "logs/application-log.txt";
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     public void monitorRequestRate() {
