@@ -30,8 +30,7 @@ public class RequestLoggingFilter implements Filter {
 
         if("/users".equals(url)) {
             String currentTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-DD HH:mm:ss"));
-            System.out.println(currentTime);
-            logger.info(currentTime);
+            logger.info("Request to /users at {}", currentTime);
 
         }
 
