@@ -1,22 +1,22 @@
-2024-12-04T00:15:45.345-06:00  INFO 17632 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 17632 (C:\Users\Cole Nola\Documents\WebAPI\demo\target\classes started by Cole Nola in C:\Users\Cole Nola\Documents\WebAPI)
-2024-12-04T00:15:45.347-06:00  INFO 17632 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-04T00:15:45.391-06:00  INFO 17632 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-04T00:15:45.392-06:00  INFO 17632 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-04T00:15:46.154-06:00  INFO 17632 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-04T00:15:46.227-06:00  INFO 17632 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
-2024-12-04T00:15:46.938-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-04T00:15:46.955-06:00  INFO 17632 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-04T00:15:46.956-06:00  INFO 17632 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-04T00:15:47.016-06:00  INFO 17632 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-04T00:15:47.017-06:00  INFO 17632 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1625 ms
-2024-12-04T00:15:47.284-06:00  INFO 17632 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-04T00:15:47.377-06:00  INFO 17632 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-04T00:15:47.413-06:00  INFO 17632 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-04T00:15:47.744-06:00  INFO 17632 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-04T00:15:47.769-06:00  INFO 17632 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-04T00:15:48.173-06:00  INFO 17632 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71e06ee7
-2024-12-04T00:15:48.175-06:00  INFO 17632 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-04T00:15:48.267-06:00  INFO 17632 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-04T00:30:11.778-06:00  INFO 16832 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 16832 (C:\Users\Cole Nola\Documents\WebAPI\demo\target\classes started by Cole Nola in C:\Users\Cole Nola\Documents\WebAPI)
+2024-12-04T00:30:11.786-06:00  INFO 16832 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T00:30:11.844-06:00  INFO 16832 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-04T00:30:11.844-06:00  INFO 16832 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-04T00:30:12.660-06:00  INFO 16832 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T00:30:12.712-06:00  INFO 16832 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-12-04T00:30:13.475-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-04T00:30:13.495-06:00  INFO 16832 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T00:30:13.495-06:00  INFO 16832 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T00:30:13.557-06:00  INFO 16832 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T00:30:13.557-06:00  INFO 16832 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1700 ms
+2024-12-04T00:30:13.820-06:00  INFO 16832 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T00:30:13.893-06:00  INFO 16832 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-04T00:30:13.921-06:00  INFO 16832 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T00:30:14.206-06:00  INFO 16832 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T00:30:14.238-06:00  INFO 16832 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-04T00:30:14.657-06:00  INFO 16832 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e7623ce
+2024-12-04T00:30:14.659-06:00  INFO 16832 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-04T00:30:14.794-06:00  INFO 16832 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -24,43 +24,216 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-04T00:15:49.161-06:00  INFO 17632 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-04T00:15:49.225-06:00  INFO 17632 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-04T00:15:49.579-06:00  WARN 17632 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-04T00:15:49.603-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-12-04T00:15:50.061-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-04T00:15:50.108-06:00  INFO 17632 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-04T00:15:50.116-06:00  INFO 17632 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.308 seconds (process running for 5.789)
-2024-12-04T00:15:59.418-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-04T00:15:59.418-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-04T00:15:59.420-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-12-04T00:15:59.424-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:15:59
-2024-12-04T00:16:00.310-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:00
-2024-12-04T00:16:01.309-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:01
-2024-12-04T00:16:02.312-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:02
-2024-12-04T00:16:03.311-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:03
-2024-12-04T00:16:04.326-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:04
-2024-12-04T00:16:05.321-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:05
-2024-12-04T00:16:06.323-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:06
-2024-12-04T00:16:07.338-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:07
-2024-12-04T00:16:08.337-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:08
-2024-12-04T00:16:09.338-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:09
-2024-12-04T00:16:10.341-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:10
-2024-12-04T00:16:11.339-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:11
-2024-12-04T00:16:12.341-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:12
-2024-12-04T00:16:13.348-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:13
-2024-12-04T00:16:14.357-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:14
-2024-12-04T00:16:15.363-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:15
-2024-12-04T00:16:16.360-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:16
-2024-12-04T00:16:17.369-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:17
-2024-12-04T00:16:18.370-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:18
-2024-12-04T00:16:19.373-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:19
-2024-12-04T00:16:20.377-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:20
-2024-12-04T00:16:21.389-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:21
-2024-12-04T00:16:22.393-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:22
-2024-12-04T00:16:23.394-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:23
-2024-12-04T00:16:24.397-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:24
-2024-12-04T00:16:25.398-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:25
-2024-12-04T00:16:26.404-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:26
-2024-12-04T00:16:27.419-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:27
-2024-12-04T00:16:28.420-06:00  INFO 17632 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:16:28
+2024-12-04T00:30:15.673-06:00  INFO 16832 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T00:30:15.713-06:00  INFO 16832 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:30:16.150-06:00  WARN 16832 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T00:30:16.177-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-04T00:30:16.677-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T00:30:16.717-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-04T00:30:16.731-06:00  INFO 16832 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.439 seconds (process running for 5.915)
+2024-12-04T00:30:21.136-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04T00:30:21.140-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-04T00:30:21.141-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-04T00:30:21.141-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:21
+2024-12-04T00:30:22.054-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:22
+2024-12-04T00:30:23.057-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:23
+2024-12-04T00:30:24.061-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:24
+2024-12-04T00:30:25.069-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:25
+2024-12-04T00:30:26.073-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:26
+2024-12-04T00:30:27.084-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:27
+2024-12-04T00:30:28.088-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:28
+2024-12-04T00:30:29.088-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:29
+2024-12-04T00:30:30.089-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:30
+2024-12-04T00:30:31.097-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:31
+2024-12-04T00:30:32.103-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:32
+2024-12-04T00:30:33.104-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:33
+2024-12-04T00:30:34.107-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:34
+2024-12-04T00:30:35.109-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:35
+2024-12-04T00:30:36.111-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:36
+2024-12-04T00:30:37.112-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:37
+2024-12-04T00:30:38.111-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:38
+2024-12-04T00:30:39.110-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:39
+2024-12-04T00:30:40.112-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:40
+2024-12-04T00:30:41.123-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:41
+2024-12-04T00:30:42.125-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:42
+2024-12-04T00:30:43.125-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:43
+2024-12-04T00:30:44.128-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:44
+2024-12-04T00:30:45.126-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:45
+2024-12-04T00:30:46.126-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:46
+2024-12-04T00:30:47.126-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:47
+2024-12-04T00:30:48.128-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:48
+2024-12-04T00:30:49.129-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:49
+2024-12-04T00:30:50.130-06:00  INFO 16832 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:30:50
+2024-12-04T00:31:00.921-06:00  INFO 16832 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-04T00:31:00.925-06:00  INFO 16832 --- [demo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04T00:31:00.929-06:00  INFO 16832 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-04T00:31:00.933-06:00  INFO 16832 --- [demo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:31:00.936-06:00  INFO 16832 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-04T00:31:00.945-06:00  INFO 16832 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-04T00:31:01.059-06:00  INFO 16832 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 16832 (C:\Users\Cole Nola\Documents\WebAPI\demo\target\classes started by Cole Nola in C:\Users\Cole Nola\Documents\WebAPI)
+2024-12-04T00:31:01.060-06:00  INFO 16832 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T00:31:01.248-06:00  INFO 16832 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T00:31:01.260-06:00  INFO 16832 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-12-04T00:31:01.368-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-04T00:31:01.369-06:00  INFO 16832 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T00:31:01.370-06:00  INFO 16832 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T00:31:01.400-06:00  INFO 16832 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T00:31:01.401-06:00  INFO 16832 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 337 ms
+2024-12-04T00:31:01.441-06:00  INFO 16832 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T00:31:01.444-06:00  INFO 16832 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T00:31:01.458-06:00  INFO 16832 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T00:31:01.459-06:00  INFO 16832 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-04T00:31:01.474-06:00  INFO 16832 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77ada138
+2024-12-04T00:31:01.475-06:00  INFO 16832 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-04T00:31:01.476-06:00  INFO 16832 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-04T00:31:01.513-06:00  INFO 16832 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T00:31:01.520-06:00  INFO 16832 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:31:01.572-06:00  WARN 16832 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T00:31:01.578-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-04T00:31:01.651-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T00:31:01.679-06:00  INFO 16832 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-04T00:31:01.683-06:00  INFO 16832 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.663 seconds (process running for 50.866)
+2024-12-04T00:31:01.685-06:00  INFO 16832 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-04T00:31:29.098-06:00  INFO 12100 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 12100 (C:\Users\Cole Nola\Documents\WebAPI\demo\target\classes started by Cole Nola in C:\Users\Cole Nola\Documents\WebAPI)
+2024-12-04T00:31:29.101-06:00  INFO 12100 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T00:31:29.145-06:00  INFO 12100 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-04T00:31:29.145-06:00  INFO 12100 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-04T00:31:29.995-06:00  INFO 12100 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T00:31:30.053-06:00  INFO 12100 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2024-12-04T00:31:30.816-06:00  INFO 12100 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-04T00:31:30.831-06:00  INFO 12100 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T00:31:30.831-06:00  INFO 12100 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T00:31:30.910-06:00  INFO 12100 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T00:31:30.910-06:00  INFO 12100 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1765 ms
+2024-12-04T00:31:31.152-06:00  INFO 12100 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T00:31:31.277-06:00  INFO 12100 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-04T00:31:31.355-06:00  INFO 12100 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T00:31:31.698-06:00  INFO 12100 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T00:31:31.728-06:00  INFO 12100 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-04T00:31:32.219-06:00  INFO 12100 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e42bf68
+2024-12-04T00:31:32.225-06:00  INFO 12100 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-04T00:31:32.383-06:00  INFO 12100 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-04T00:31:33.166-06:00  INFO 12100 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T00:31:33.220-06:00  INFO 12100 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:31:33.565-06:00  WARN 12100 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T00:31:33.592-06:00  INFO 12100 --- [demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-04T00:31:34.141-06:00  INFO 12100 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T00:31:34.192-06:00  INFO 12100 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-04T00:31:34.208-06:00  INFO 12100 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.673 seconds (process running for 6.155)
+2024-12-04T00:31:41.162-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04T00:31:41.162-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-04T00:31:41.162-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-04T00:31:41.162-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:41
+2024-12-04T00:31:42.064-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:42
+2024-12-04T00:31:43.072-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:43
+2024-12-04T00:31:44.074-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:44
+2024-12-04T00:31:45.076-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:45
+2024-12-04T00:31:46.078-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:46
+2024-12-04T00:31:47.079-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:47
+2024-12-04T00:31:48.089-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:48
+2024-12-04T00:31:49.103-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:49
+2024-12-04T00:31:50.109-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:50
+2024-12-04T00:31:51.109-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:51
+2024-12-04T00:31:52.120-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:52
+2024-12-04T00:31:53.122-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:53
+2024-12-04T00:31:54.123-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:54
+2024-12-04T00:31:55.125-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:55
+2024-12-04T00:31:56.129-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:56
+2024-12-04T00:31:57.131-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:57
+2024-12-04T00:31:58.133-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:58
+2024-12-04T00:31:59.133-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:31:59
+2024-12-04T00:32:00.136-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:00
+2024-12-04T00:32:01.141-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-1] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:01
+2024-12-04T00:32:02.146-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-2] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:02
+2024-12-04T00:32:03.147-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-3] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:03
+2024-12-04T00:32:04.156-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-4] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:04
+2024-12-04T00:32:05.164-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-5] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:05
+2024-12-04T00:32:06.165-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-6] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:06
+2024-12-04T00:32:07.169-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-7] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:07
+2024-12-04T00:32:08.170-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-8] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:08
+2024-12-04T00:32:09.175-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-9] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:09
+2024-12-04T00:32:10.178-06:00  INFO 12100 --- [demo] [http-nio-8080-exec-10] c.e.demo.filter.RequestLoggingFilter     : Request to /users at 2024-12-339 00:32:10
+2024-12-04T00:34:40.010-06:00  INFO 20208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 20208 (C:\Users\Cole Nola\Documents\WebAPI\demo\target\classes started by Cole Nola in C:\Users\Cole Nola\Documents\WebAPI)
+2024-12-04T00:34:40.010-06:00  INFO 20208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T00:34:40.094-06:00  INFO 20208 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-04T00:34:40.094-06:00  INFO 20208 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-04T00:34:41.041-06:00  INFO 20208 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T00:34:41.126-06:00  INFO 20208 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2024-12-04T00:34:41.896-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-04T00:34:41.917-06:00  INFO 20208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T00:34:41.917-06:00  INFO 20208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T00:34:41.994-06:00  INFO 20208 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T00:34:41.994-06:00  INFO 20208 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1900 ms
+2024-12-04T00:34:42.332-06:00  INFO 20208 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T00:34:42.525-06:00  INFO 20208 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-04T00:34:42.605-06:00  INFO 20208 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T00:34:42.971-06:00  INFO 20208 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T00:34:43.011-06:00  INFO 20208 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-04T00:34:43.508-06:00  INFO 20208 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f1f10e9
+2024-12-04T00:34:43.518-06:00  INFO 20208 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-04T00:34:43.799-06:00  INFO 20208 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-04T00:34:44.760-06:00  INFO 20208 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T00:34:44.814-06:00  INFO 20208 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:34:45.339-06:00  WARN 20208 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T00:34:45.366-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-04T00:34:45.793-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T00:34:45.854-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-04T00:34:45.858-06:00  INFO 20208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 6.462 seconds (process running for 7.008)
+2024-12-04T00:35:33.111-06:00  INFO 20208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-04T00:35:33.127-06:00  INFO 20208 --- [demo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04T00:35:33.133-06:00  INFO 20208 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-04T00:35:33.133-06:00  INFO 20208 --- [demo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:35:33.137-06:00  INFO 20208 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-04T00:35:33.144-06:00  INFO 20208 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-04T00:35:33.236-06:00  INFO 20208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 20208 (C:\Users\Cole Nola\Documents\WebAPI\demo\target\classes started by Cole Nola in C:\Users\Cole Nola\Documents\WebAPI)
+2024-12-04T00:35:33.237-06:00  INFO 20208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T00:35:33.415-06:00  INFO 20208 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04T00:35:33.425-06:00  INFO 20208 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-12-04T00:35:33.526-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-04T00:35:33.526-06:00  INFO 20208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-04T00:35:33.526-06:00  INFO 20208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04T00:35:33.547-06:00  INFO 20208 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-04T00:35:33.547-06:00  INFO 20208 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 308 ms
+2024-12-04T00:35:33.577-06:00  INFO 20208 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04T00:35:33.586-06:00  INFO 20208 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-04T00:35:33.593-06:00  INFO 20208 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04T00:35:33.593-06:00  INFO 20208 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-04T00:35:33.607-06:00  INFO 20208 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@175f345b
+2024-12-04T00:35:33.607-06:00  INFO 20208 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-04T00:35:33.607-06:00  INFO 20208 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-04T00:35:33.655-06:00  INFO 20208 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04T00:35:33.655-06:00  INFO 20208 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04T00:35:33.708-06:00  WARN 20208 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04T00:35:33.720-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-12-04T00:35:33.803-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-04T00:35:33.815-06:00  INFO 20208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-04T00:35:33.815-06:00  INFO 20208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.626 seconds (process running for 54.962)
+2024-12-04T00:35:33.823-06:00  INFO 20208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

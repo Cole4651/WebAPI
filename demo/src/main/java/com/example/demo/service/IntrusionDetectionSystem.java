@@ -13,10 +13,11 @@ import org.slf4j.LoggerFactory;
 
 public class IntrusionDetectionSystem {
     private static final Logger logger = LoggerFactory.getLogger(IntrusionDetectionSystem.class);
-    private static final String LOG_FILE_PATH = "logs/application-log.txt";
+    private static final String LOG_FILE_PATH = "/logs/application-log.txt";
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     public void monitorRequestRate() {
+        System.out.println("String to monitor request rates. ");
         List<LocalDateTime> timestamps = new ArrayList<>();
 
         try(BufferedReader reader = new BufferedReader(new FileReader(LOG_FILE_PATH))) {
@@ -26,9 +27,10 @@ public class IntrusionDetectionSystem {
                     String timestampString = extractTimeStamp(line);
                     LocalDateTime timestamp = LocalDateTime.parse(timestampString, DATE_FORMATTER);
                     timestamps.add(timestamp);
+                    System.out.println("Extracted timestamp: " + timestampString);
                 }
             }
-
+            System.out.println("Total timestamps found: " + timestamps.size());
             checkRequestRate(timestamps);
         } catch (IOException e) {
             logger.error("Error reading log file", e);
@@ -36,7 +38,12 @@ public class IntrusionDetectionSystem {
     }
 
     private String extractTimeStamp(String logLine) {
-        return logLine.split(" ")[0] + " " + logLine.split(" ")[1];
+        int timestampIndex = logLine.lastIndexOf("at ");
+        if(timestampIndex != -1) {
+            return logLine.substring(timestampIndex + 3);
+        }
+        return null;
+        
     }
 
     private void checkRequestRate(List<LocalDateTime> timestamps) {
@@ -45,7 +52,6 @@ public class IntrusionDetectionSystem {
             LocalDateTime currentTimestamp = timestamps.get(i);
 
             if(currentTimestamp.minusSeconds(1).isBefore(prevTimestamp) || currentTimestamp.equals(prevTimestamp)) {
-                logger.warn("High request rate detected.");
                 System.out.println("High request rate detected.");
             }
         }
