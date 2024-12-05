@@ -34,6 +34,7 @@ public class IntrusionDetectionSystem {
 
             if (!Files.exists(Paths.get(LOG_FILE_PATH))) {
                 logger.error("Log file does not exist at path: {}", LOG_FILE_PATH);
+                monitorRequestRate();
                 return; 
             }
         } catch (Exception e) {
@@ -42,6 +43,7 @@ public class IntrusionDetectionSystem {
     }
 
     public void monitorRequestRate() {
+        System.out.println("monitor Request Rate");
         List<LocalDateTime> timestamps = new ArrayList<>();
         List<String> lines = new ArrayList<>();
 
