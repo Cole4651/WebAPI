@@ -15,7 +15,6 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import jakarta.annotation.PostConstruct;
@@ -42,7 +41,6 @@ public class IntrusionDetectionSystem {
         }
     }
 
-    @Scheduled(fixedRate = 5000)
     public void monitorRequestRate() {
         List<LocalDateTime> timestamps = new ArrayList<>();
         List<String> lines = new ArrayList<>();
@@ -64,6 +62,14 @@ public class IntrusionDetectionSystem {
         } catch (IOException e) {
             logger.error("Error reading log file", e);
         }
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            logger.error("Error during sleep", e);
+        }
+
+        monitorRequestRate();
     }
 
     private String extractTimeStamp(String logLine) {
