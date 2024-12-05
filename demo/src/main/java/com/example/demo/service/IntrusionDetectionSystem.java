@@ -66,7 +66,7 @@ public class IntrusionDetectionSystem {
         }
     }
 
-    // Method to extract timestamp from the log line
+
     private String extractTimeStamp(String logLine) {
         int timestampIndex = logLine.indexOf("Request to /users at ");
         if (timestampIndex != -1) {
@@ -75,7 +75,7 @@ public class IntrusionDetectionSystem {
         return null;
     }
 
-    // Method to check if requests are made at a high rate (1 per second or faster)
+
     private void checkRequestRate(List<LocalDateTime> timestamps, List<String> lines) {
         for (int i = 1; i < timestamps.size(); i++) {
             LocalDateTime prevTimestamp = timestamps.get(i - 1);
@@ -84,7 +84,7 @@ public class IntrusionDetectionSystem {
             long secondsDifference = java.time.Duration.between(prevTimestamp, currentTimestamp).getSeconds();
 
             if (secondsDifference <= 1) {
-                System.out.println("Possible DDoS attack between " + prevTimestamp + " and " + currentTimestamp + " (" + secondsDifference + " seconds)");
+                System.out.println("Possible DDoS attack");
                 markForDeletion(lines, prevTimestamp, currentTimestamp);
             }
         }
@@ -92,7 +92,6 @@ public class IntrusionDetectionSystem {
         removeProcessedEntriesFromLog(lines);
     }
 
-    // Method to mark log entries for deletion based on timestamps
     private void markForDeletion(List<String> lines, LocalDateTime prevTimestamp, LocalDateTime currentTimestamp) {
         for (String line : lines) {
             String timestampString = extractTimeStamp(line);
@@ -105,7 +104,6 @@ public class IntrusionDetectionSystem {
         }
     }
 
-    // Method to remove the marked lines from the log file
     private void removeProcessedEntriesFromLog(List<String> lines) {
         List<String> remainingLines = lines.stream()
                                            .filter(line -> !linesToDelete.contains(line))
@@ -115,7 +113,6 @@ public class IntrusionDetectionSystem {
             for (String line : remainingLines) {
                 writer.write(line + System.lineSeparator()); 
             }
-            System.out.println("Log file updated, processed entries removed.");
         } catch (IOException e) {
             logger.error("Error writing to log file", e);
         }
